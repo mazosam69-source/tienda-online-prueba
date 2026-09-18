@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Dulce Canela: productos naturistas y artesanales elegidos con cariño para tu bienestar.">
+	<title>Dulce Canela | Naturista y artesanal</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="#inicio" aria-label="Dulce Canela, inicio">
+			<span class="brand-mark" aria-hidden="true">✦</span>
+			<span><strong>Dulce</strong> Canela<small>naturista & artesanal</small></span>
+		</a>
+		<nav class="main-nav" aria-label="Navegación principal">
+			<a href="#inicio">Inicio</a>
+			<a href="#catalogo">Catálogo</a>
+			<a href="#contacto">Contacto</a>
+		</nav>
+		<button class="cart-button" id="open-cart" type="button" aria-label="Abrir carrito">
+			<span aria-hidden="true">🛒</span><b id="cart-count">0</b>
+		</button>
+	</header>
+
+	<main>
+		<section class="hero" id="inicio">
+			<div class="hero-copy">
+				<p class="eyebrow">Hecho con calma, elegido con amor</p>
+				<h1>Pequeños rituales para sentirte bien.</h1>
+				<p class="hero-text">Productos naturistas y artesanales para acompañar tus días con bienestar, aroma y sabor.</p>
+				<a class="button button-primary" href="#catalogo">Explorar productos <span aria-hidden="true">↗</span></a>
+			</div>
+			<div class="hero-art" aria-label="Canela, hojas y productos naturales" role="img">
+				<span class="art-sun"></span><span class="art-leaf leaf-one"></span><span class="art-leaf leaf-two"></span>
+				<span class="art-bowl">✦</span><span class="art-stick">c a n e l a</span>
+			</div>
+		</section>
+
+		<section class="intro-strip" aria-label="Beneficios de comprar en Dulce Canela">
+			<div><span>◌</span><p><strong>Selección consciente</strong><small>Ingredientes de confianza</small></p></div>
+			<div><span>⌁</span><p><strong>Preparado con cariño</strong><small>Emprendimiento familiar</small></p></div>
+			<div><span>↗</span><p><strong>Compra fácil</strong><small>Recibe tu pedido por WhatsApp</small></p></div>
+		</section>
+
+		<section class="section featured-section" aria-labelledby="featured-title">
+			<div class="section-heading"><div><p class="eyebrow">Nuestros favoritos</p><h2 id="featured-title">Para empezar bonito</h2></div><a class="text-link" href="#catalogo">Ver todo <span aria-hidden="true">→</span></a></div>
+			<div class="product-grid" id="featured-products" aria-live="polite"></div>
+		</section>
+
+		<section class="section catalog-section" id="catalogo" aria-labelledby="catalog-title">
+			<div class="section-heading catalog-heading"><div><p class="eyebrow">La tienda completa</p><h2 id="catalog-title">Encuentra tu próximo ritual</h2></div><span class="product-total" id="product-total"></span></div>
+			<div class="catalog-tools">
+				<label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Buscar por nombre..." autocomplete="off"><span class="sr-only">Buscar productos</span></label>
+				<label class="select-box"><span class="sr-only">Filtrar por categoría</span><select id="category-filter"><option value="todos">Todas las categorías</option></select></label>
+			</div>
+			<div class="product-grid" id="product-grid" aria-live="polite"></div>
+			<p class="empty-state" id="empty-state" hidden>No encontramos productos con esa búsqueda. Prueba con otro nombre o categoría.</p>
+		</section>
+
+		<section class="contact-section" id="contacto" aria-labelledby="contact-title">
+			<div><p class="eyebrow">Estamos para ayudarte</p><h2 id="contact-title">Hablemos de bienestar</h2><p>¿Tienes dudas sobre un producto o quieres hacer un pedido especial? Escríbenos, será un gusto acompañarte.</p><a class="button button-light" href="https://wa.me/5491100000000" target="_blank" rel="noopener">Escribir por WhatsApp <span aria-hidden="true">↗</span></a></div>
+			<address><div><span class="contact-icon">⌖</span><p><strong>Visítanos</strong><br>Av. de la Familia 123<br>Buenos Aires, Argentina</p></div><div><span class="contact-icon">☏</span><p><strong>Escríbenos</strong><br><a href="tel:+5491100000000">+54 9 11 0000 0000</a></p></div><div><span class="contact-icon">◎</span><p><strong>Encuéntranos</strong><br><a href="https://instagram.com/dulcecanela.naturista" target="_blank" rel="noopener">@dulcecanela.naturista</a></p></div></address>
+		</section>
+	</main>
+
+	<footer class="site-footer"><span>© 2026 Dulce Canela</span><span>Hecho en familia, pensado para ti.</span></footer>
+
+	<aside class="cart-drawer" id="cart-drawer" aria-hidden="true" aria-labelledby="cart-title">
+		<div class="drawer-header"><div><p class="eyebrow">Tu selección</p><h2 id="cart-title">Mi carrito</h2></div><button class="icon-button" id="close-cart" type="button" aria-label="Cerrar carrito">×</button></div>
+		<div class="cart-items" id="cart-items"></div>
+		<div class="cart-empty" id="cart-empty"><span aria-hidden="true">✦</span><p>Tu carrito está esperando algo rico.</p><a href="#catalogo" id="browse-products">Ver productos</a></div>
+		<div class="cart-footer" id="cart-footer"><div><span>Total</span><strong id="cart-total">$0</strong></div><a class="button button-primary whatsapp-button" id="whatsapp-order" href="#" target="_blank" rel="noopener">Finalizar por WhatsApp <span aria-hidden="true">↗</span></a><small>Te llevaremos a WhatsApp para confirmar tu pedido.</small></div>
+	</aside>
+	<div class="drawer-overlay" id="drawer-overlay"></div>
+
+	<dialog class="product-dialog" id="product-dialog"><button class="dialog-close icon-button" id="close-dialog" type="button" aria-label="Cerrar detalle">×</button><div id="dialog-content"></div></dialog>
+	<div class="toast" id="toast" role="status" aria-live="polite"></div>
+	<script src="script.js"></script>
+</body>
+</html>

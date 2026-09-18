@@ -1,0 +1,67 @@
+[
+  {
+    "id": "te-calma",
+    "nombre": "Té Calma",
+    "precio": 6800,
+    "categoria": "Tés e infusiones",
+    "foto": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=700&q=80",
+    "descripcion": "Una mezcla suave de manzanilla, melisa y lavanda para cerrar el día.",
+    "beneficios": "Acompaña la relajación y ayuda a crear un momento de pausa.",
+    "modo_uso": "Infusionar 1 cucharadita en una taza de agua caliente durante 5 minutos.",
+    "presentacion": "Frasco de 50 g",
+    "disponibilidad": "en stock",
+    "destacado": true
+  },
+  {
+    "id": "aceite-lavanda",
+    "nombre": "Aceite esencial de Lavanda",
+    "precio": 9200,
+    "categoria": "Aceites naturales",
+    "foto": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80",
+    "descripcion": "Aroma floral y sereno, ideal para sumar calma a tus espacios.",
+    "beneficios": "Favorece un ambiente relajado y perfuma de forma natural.",
+    "modo_uso": "Usar 3 a 5 gotas en difusor. No ingerir ni aplicar puro sobre la piel.",
+    "presentacion": "Frasco de vidrio de 10 ml",
+    "disponibilidad": "en stock",
+    "destacado": true
+  },
+  {
+    "id": "miel-jengibre",
+    "nombre": "Miel con Jengibre",
+    "precio": 7500,
+    "categoria": "Alimentos naturales",
+    "foto": "https://images.unsplash.com/photo-1471943311424-646960669fbc?auto=format&fit=crop&w=700&q=80",
+    "descripcion": "Miel pura con jengibre, de sabor cálido y ligeramente picante.",
+    "beneficios": "Aporta un toque reconfortante a infusiones, desayunos y meriendas.",
+    "modo_uso": "Disfrutar 1 cucharadita sola o disuelta en bebidas tibias.",
+    "presentacion": "Frasco de 250 g",
+    "disponibilidad": "en stock",
+    "destacado": true
+  },
+  {
+    "id": "balsamo-calendula",
+    "nombre": "Bálsamo de Caléndula",
+    "precio": 8400,
+    "categoria": "Cosmética natural",
+    "foto": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=700&q=80",
+    "descripcion": "Bálsamo vegetal de textura suave para el cuidado cotidiano de la piel.",
+    "beneficios": "Ayuda a mantener la piel nutrida, suave y protegida.",
+    "modo_uso": "Aplicar una pequeña cantidad sobre la piel limpia y seca.",
+    "presentacion": "Pote de 60 g",
+    "disponibilidad": "en stock",
+    "destacado": false
+  },
+  {
+    "id": "mix-semillas",
+    "nombre": "Mix de Semillas",
+    "precio": 5900,
+    "categoria": "Alimentos naturales",
+    "foto": "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=700&q=80",
+    "descripcion": "Lino, chía y girasol para sumar variedad a tus comidas.",
+    "beneficios": "Fuente natural de fibra y textura para desayunos y ensaladas.",
+    "modo_uso": "Agregar 1 o 2 cucharadas a yogures, licuados, ensaladas o granola.",
+    "presentacion": "Doypack de 300 g",
+    "disponibilidad": "agotado",
+    "destacado": false
+  }
+]
