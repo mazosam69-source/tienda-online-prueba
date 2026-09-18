@@ -12,6 +12,19 @@
     "disponibilidad": "en stock",
     "destacado": true
   },
+    {
+    "id": "quesso-colanta",
+    "nombre": "Queso colanta",
+    "precio": 5.600,
+    "categoria": "lacteos",
+    "foto": "https://www.tiendalacteosbombona.com/colanta/quesos/?srsltid=AU7gw4UoAYbBsKpMGeswiaP9ycfft92fToxXBrRR3-WidjQMdEt8W22K",
+    "descripcion": "Delicioso queso fresco para acompañar cualquier comida.",
+    "beneficios": "Ayuda a la digestion ligera y no es pesado para el cuerpo.",
+    "modo_uso": "Consumir por la mañana o por la noche, evitar comerlo 2 veces al dia.",
+    "presentacion": "Bloque de 380gr",
+    "disponibilidad": "en stock",
+    "destacado": true
+  },
   {
     "id": "aceite-lavanda",
     "nombre": "Aceite esencial de Lavanda",
